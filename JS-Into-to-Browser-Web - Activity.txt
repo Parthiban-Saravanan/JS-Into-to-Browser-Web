@@ -1,0 +1,71 @@
+JavaScript - Day -1 : Introduction to Browser & web
+
+Activity 1
+
+--------------------------------------------------------------------------------------------------------------------********************************------------------------------------------------------------------------------------------------------------
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2.
+
+
+HTTP/1.1 and HTTP/2 are two versions of the Hypertext Transfer Protocol (HTTP) that are used to transfer data between a client and a server. HTTP/1.1 was released in 1997 and has been the standard protocol for the web for many years. HTTP/2, on the other hand, was released in 2015 and is a newer version of the protocol that aims to improve the performance of the web.
+
+HTTP/1.1 is a text-based protocol that sends requests and responses in plain text format. HTTP/2, on the other hand, uses a binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, and headers. This change allows HTTP/2 to be more efficient than HTTP/1.1, especially when dealing with mobile platforms and server-intensive graphics and videos.
+
+HTTP/2 is also fully multiplexed, which means that it can send multiple requests and responses at the same time over a single connection. This is in contrast to HTTP/1.1, which can only send one request at a time over a single connection. HTTP/2 also uses header compression to reduce overhead and allows servers to "push" responses proactively into client caches.
+
+In summary, HTTP/2 is a more efficient and faster protocol than HTTP/1.1. It uses binary framing, multiplexing, header compression, and server push to improve the performance of the web.
+
+Drwbacks:
+
+HTTP/2 is a more efficient and faster protocol than HTTP/1.1, but it does have some drawbacks. One of the main drawbacks of HTTP/2 is that it requires more processing power on the server side. This is because HTTP/2 uses a binary framing layer to encapsulate all messages in binary format, which requires more processing power than the text-based format used by HTTP/1.1.
+
+Another drawback of HTTP/2 is that it can be difficult to troubleshoot when things go wrong. This is because HTTP/2 uses multiplexing to send multiple requests and responses over a single connection, which can make it difficult to identify which request or response is causing the problem.
+
+Finally, some older browsers and servers may not support HTTP/2, which can cause compatibility issues. However, most modern browsers and servers do support HTTP/2, so this is becoming less of an issue over time.
+
+--------------------------------------------------------------------------------------------------------------------********************************------------------------------------------------------------------------------------------------------------
+
+2. Write a blog about objects and its internal representation in Javascript.
+
+Objects are one of the most important data types in JavaScript and form the building blocks for modern JavaScript. They are quite different from JavaScript’s primitive data types (Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data types all store a single value each (depending on their types), objects are more complex and each object may contain any combination of these primitive data types as well as reference data types.
+
+An object is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value. Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object. For example, if your object is a student, it will have properties like name, age, address, id, etc and methods like updateAddress, updateName, etc.
+
+JavaScript objects are a collection of properties, each with a value, and how they are stored in memory and accessed with dot-notation or array indices. Most objects contain all their properties in a single block of memory. All blocks of memory have a pointer to a map, which describes their structure. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation: objectName.propertyName. Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value.
+
+In addition to objects that are predefined in the browser, you can define your own objects. There are several ways to create new objects:
+
+1. Object literals
+2. Constructors
+3. Object.create
+4. Prototype chain
+
+In summary, objects are a fundamental part of JavaScript and are used to store and manipulate data. They are reference data types that can contain any combination of primitive and reference data types. Objects are defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. JavaScript objects are a collection of properties, each with a value, and how they are stored in memory and accessed with dot-notation or array indices. There are several ways to create new objects.
+
+--------------------------------------------------------------------------------------------------------------------********************************------------------------------------------------------------------------------------------------------------
+
+4. About IP address, port, HTTP methods, MAC address.
+
+IP address:
+
+An Internet Protocol (IP) address is a unique numerical identifier assigned to each device connected to the internet.
+It is used to identify and communicate with devices on a network.
+Example: 192.168.1.1
+
+Port:
+
+A port is a communication endpoint that allows a computer to send and receive data over a network. 
+Ports are identified by a number between 0 and 65535.
+For example, the HTTP protocol uses port 80 by default.
+
+HTTP methods:
+
+HTTP methods are the verbs used by clients to request resources from a web server.
+The most common HTTP methods are GET, POST, PUT, DELETE, and HEAD.
+For example, a client might use the GET method to request a webpage from a server.
+
+MAC address:
+
+A MAC address is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment. 
+It is used to identify devices on a network at the data link layer of a network.
+Example: 00:11:22:33:44:55
